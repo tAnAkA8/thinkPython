@@ -1,8 +1,6 @@
 #input関数の関係により、
 #以下のプログラムはpython2で、動くプログラム
 
-import math
-
 def evel_loop(text=''):
   if text != 'done':
     print(eval(text))
